@@ -9,6 +9,7 @@ pipenv shell
 pip install numpy pandas matplotlib seaborn jupyter
 pip install streamlit babel
 pip install pipreqs
+jupyter-notebook
 ```
 
 ## Run steamlit app
