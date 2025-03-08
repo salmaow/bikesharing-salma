@@ -174,6 +174,7 @@ plt.grid(True, linestyle="--", alpha=0.7)
 plt.legend()
 
 st.pyplot(fig)
+st.text("Kesimpulannya terdapan kenaikan jumlah peminjaman sepeda dari tahun 2011 ke tahun 2012.")
 
 st.header("Jumlah Peminjaman Sepeda Berdasarkan Musim")
 # 2 bar chart
@@ -197,6 +198,7 @@ plt.ticklabel_format(style='plain', axis='x')
 plt.tick_params(axis='y', labelsize=12)
 
 st.pyplot(fig)
+st.text("Pengaruh cuaca membuat perbedaan yang signifikan terkait jumlah peminjaman sepeda, dimana cuaca cerah menjadi cuara terfavorit untuk bersepeda.")
 
 st.header("Jumlah Peminjaman Sepeda Berdasarkan Musim")
 # 3 bar chart
@@ -223,3 +225,5 @@ plt.ticklabel_format(style='plain', axis='x')
 plt.tick_params(axis='y', labelsize=12)
 
 st.pyplot(fig)
+
+st.text(" Perubahan musim juga berpengaruh bagi jumlah peminjaman sepeda, bisa dilihat ternyata jumlah peminjaman sepeda paling sedikit ada di musim semi.")
