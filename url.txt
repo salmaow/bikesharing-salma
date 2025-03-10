@@ -1,1 +1,2 @@
 link deploy streamlit
+https://dicoding-bikesharing-salma.streamlit.app/
